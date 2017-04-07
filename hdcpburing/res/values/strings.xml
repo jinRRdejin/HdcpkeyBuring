@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hdcpburing</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="get_error">"未烧录"</string>
+    <string name="burned_str">"已烧录"</string>
+    <string name="str_update_tx_hdcp_title">HDCP烧录中, 结束前请勿操作 ... </string>
+    <string name="str_update_tx_hdcp_title2">TX KEY烧录大概需要20秒时间，请耐心等待 </string>
+    <string name="str_update_hdcp_title">【 5T10 HDCP烧录, 结束前请勿操作！ 】</string>
+    <string name="str_update_hdcp_title_finish">烧录6M60 HDCP完成</string>
+    <string name="str_update_hdcp_1">KEY1:</string>
+    <string name="str_update_hdcp_2">KEY2:</string>
+    <string name="str_update_hdcp_run">烧录中  ...</string>
+    <string name="str_update_hdcp_fail_no_file">失败 (未找到文件)</string>
+    <string name="str_update_hdcp_fail_timeout">失败 (超时,请检查接线或者重试)</string>
+    <string name="str_update_hdcp_fail_save_timeout">失败 (保存超时,请检查接线或者重试)</string>
+    <string name="str_update_hdcp_ok">烧录成功</string>
+    <string name="str_mac_success">"烧录成功"</string>
+    <string name="str_mac_fail_conflict">"MAC已被使用"</string>
+    <string name="str_mac_fail_return_err">"PC反馈错误，请重试"</string>
+    <string name="str_hdcp_key_fail_conflict">"HDCP KEY已被使用"</string>
+    <string name="str_sw_title">"【5T10 软件信息菜单】"</string>
+    <string name="str_sw_info">"软件版本号 :"</string>
+    <string name="str_sw_hdcp_info">"HDCP KEY :"</string>
+
+</resources>

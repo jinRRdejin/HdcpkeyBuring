@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/tv.whaley.tm.jar"/>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/com.mstar.android.jar"/>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/com.android.mstar.jar"/>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/com.classictv.android.jar"/>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/classes.jar"/>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/framework.jar" sourcepath="F:/workspace/Android source-19_r02.zip"/>
+	<classpathentry kind="lib" path="J:/828/jars_20161018/tv.whaley.factory.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

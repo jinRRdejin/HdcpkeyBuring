@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sfulayout">
+
+<LinearLayout
+        android:id="@+id/ctv_update_hdcp_key_ly"
+        android:layout_width="1500px"
+        android:layout_height="500px"
+        android:layout_marginTop="50px"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        <Button 
+            android:id="@+id/burning"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop = "100px"
+            android:text="点击开始烧录HDCP KEY"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>"
+    
+<LinearLayout
+        android:id="@+id/ctv_update_hdcp_key_ly"
+        android:layout_width="800px"
+        android:layout_height="400px"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ctv_factory_hdcp_update_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:layout_gravity="center"
+            android:text="【5T10 HDCP KEY烧录中，请勿结束操作】"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/ctv_factory_hdcp_one_update_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="10px"
+            android:text="@string/str_update_hdcp_1"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/ctv_factory_hdcp_two_update_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="10px"
+            android:text="@string/str_update_hdcp_2"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ctv_update_hdcp_key_ly"
+        android:layout_width="1500px"
+        android:layout_height="500px"
+        android:layout_marginTop="50px"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        <Button 
+            android:id="@+id/chankan"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop = "100px"
+            android:text="点击查看软件版本与KEY"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
+    
+<LinearLayout
+        android:id="@+id/ctv_update_hdcp_key_ly"
+        android:layout_width="800px"
+        android:layout_height="400px"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ctv_software_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:layout_gravity="center"
+            android:text="【5T10 软件信息菜单】"
+            android:textSize="21sp"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:id="@+id/ctv_software_status_sw_ly"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60px"
+            android:background="@color/black"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/ctv_software_status_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_gravity="left"
+                android:text="@string/str_sw_info"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/ctv_sw_status_sw_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_gravity="left"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ctv_software_status_key_ly"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:background="@color/black"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/ctv_software_status_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_gravity="left"
+                android:text="@string/str_sw_hdcp_info"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/ctv_sw_status_key_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:layout_gravity="left"
+                android:textSize="20sp"
+                android:text="@string/get_error"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
